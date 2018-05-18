@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Http\Request;
-
+/*
+ * @author Amrit Rathi amrit@citrusleaf.in
+ * Date 18-May-2018
+ *
+ * */
 class SearchController extends Controller {
 
     public function index() {
