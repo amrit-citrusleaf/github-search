@@ -66,7 +66,7 @@
                 var self = this;
                 e.preventDefault();
                 $.ajax({
-                    url: '{{"/search"}}',
+                    url: '{{url("search")}}',
                     data: {username: self.username, page: self.page},
                     method: "get",
                     success: function (response) {
